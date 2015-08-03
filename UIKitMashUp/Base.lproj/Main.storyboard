@@ -20,7 +20,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Use the list on the left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V9z-wd-bys">
                                 <rect key="frame" x="64" y="63" width="167" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -50,13 +50,13 @@
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="ToDoList" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dL8-qR-Pi4">
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Notifications, Badge Number, Persistent Storage" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zoc-n3-6cg">
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -70,13 +70,13 @@
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="PhotoAlbum - WIP" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="XbD-rj-Nui">
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Persistent Storage with NSCoding" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jSI-hT-siY">
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -90,13 +90,13 @@
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Gesture Recognizer - Planned" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zqa-hm-4ea">
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Popup" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vCM-ot-CUO">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vCM-ot-CUO">
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -136,13 +136,13 @@
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="J69-dO-qkZ">
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="idR-pC-TRS">
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -166,7 +166,7 @@
             </objects>
             <point key="canvasLocation" x="3340" y="-888"/>
         </scene>
-        <!--Photo Album-->
+        <!--Photo Album View Controller-->
         <scene sceneID="4TA-LD-aQk">
             <objects>
                 <viewController id="ew7-BT-RuT" customClass="PhotoAlbumViewController" customModule="UIKitMashUp" customModuleProvider="target" sceneMemberID="viewController">
@@ -200,7 +200,7 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lmd-if-FjE">
                                                     <rect key="frame" x="10" y="132" width="120" height="40"/>
                                                     <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -227,7 +227,9 @@
                             <constraint firstAttribute="trailing" secondItem="8fr-cm-rFT" secondAttribute="trailing" id="dty-H1-RQe"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Photo Album" id="yDD-9h-MMY"/>
+                    <navigationItem key="navigationItem" id="yDD-9h-MMY">
+                        <nil key="title"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="collectionView" destination="8fr-cm-rFT" id="Xwg-up-Tpe"/>
                     </connections>
@@ -254,13 +256,13 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="1Tk-of-Pgd">
-                                <rect key="frame" x="16" y="110" width="568" height="162"/>
+                                <rect key="frame" x="16" y="120" width="568" height="162"/>
                                 <date key="date" timeIntervalSinceReferenceDate="458934639.86342299">
                                     <!--2015-07-18 17:50:39 +0000-->
                                 </date>
                             </datePicker>
                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R6X-hS-XZj">
-                                <rect key="frame" x="270" y="280" width="61" height="30"/>
+                                <rect key="frame" x="270" y="290" width="61" height="30"/>
                                 <state key="normal" title="Add task">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -268,18 +270,27 @@
                                     <action selector="submitTask:" destination="lOD-uh-SuZ" eventType="touchUpInside" id="wl9-bY-uGg"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cKa-3T-gj1">
+                                <rect key="frame" x="16" y="107" width="568" height="5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="5" id="VDD-RO-cb7"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="1Tk-of-Pgd" firstAttribute="top" secondItem="cKa-3T-gj1" secondAttribute="bottom" constant="8" symbolic="YES" id="0IA-2k-t9m"/>
                             <constraint firstAttribute="centerX" secondItem="R6X-hS-XZj" secondAttribute="centerX" id="9gG-pN-dW0"/>
                             <constraint firstItem="Qek-gP-LFa" firstAttribute="leading" secondItem="Git-Tr-Ae0" secondAttribute="leadingMargin" id="A6e-rl-ouV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="cKa-3T-gj1" secondAttribute="trailing" id="Esw-Wh-u2p"/>
                             <constraint firstItem="Qek-gP-LFa" firstAttribute="top" secondItem="jnn-qE-Jw0" secondAttribute="bottom" constant="8" symbolic="YES" id="FQC-Rf-gIp"/>
+                            <constraint firstItem="cKa-3T-gj1" firstAttribute="top" secondItem="Qek-gP-LFa" secondAttribute="bottom" constant="5" id="LHo-Dm-X7w"/>
                             <constraint firstItem="R6X-hS-XZj" firstAttribute="top" secondItem="1Tk-of-Pgd" secondAttribute="bottom" constant="8" symbolic="YES" id="Lvd-5x-POp"/>
                             <constraint firstItem="Qek-gP-LFa" firstAttribute="trailing" secondItem="Git-Tr-Ae0" secondAttribute="trailingMargin" id="RSl-Iw-i7C"/>
                             <constraint firstItem="1Tk-of-Pgd" firstAttribute="leading" secondItem="Git-Tr-Ae0" secondAttribute="leadingMargin" id="TBb-jW-K6c"/>
-                            <constraint firstItem="UU2-t0-hyh" firstAttribute="top" relation="greaterThanOrEqual" secondItem="R6X-hS-XZj" secondAttribute="bottom" constant="5" id="cFf-Ge-cQM"/>
+                            <constraint firstItem="UU2-t0-hyh" firstAttribute="top" relation="greaterThanOrEqual" secondItem="R6X-hS-XZj" secondAttribute="bottom" constant="15" id="cFf-Ge-cQM"/>
                             <constraint firstItem="1Tk-of-Pgd" firstAttribute="trailing" secondItem="Git-Tr-Ae0" secondAttribute="trailingMargin" id="nZG-b8-vTf"/>
-                            <constraint firstItem="1Tk-of-Pgd" firstAttribute="top" secondItem="Qek-gP-LFa" secondAttribute="bottom" constant="8" symbolic="YES" id="yZF-rA-WsB"/>
+                            <constraint firstItem="cKa-3T-gj1" firstAttribute="leading" secondItem="Git-Tr-Ae0" secondAttribute="leadingMargin" id="w8s-Ub-Ejg"/>
                         </constraints>
                     </view>
                     <connections>

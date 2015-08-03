@@ -11,12 +11,12 @@ class ToDoTaskEditorViewController: UIViewController {
     
     @IBAction func submitTask(sender: UIButton) {
         let newTaskItem = TodoTaskItem(deadline: deadlinePicker.date, description: taskInputField.text, UUID: NSUUID().UUIDString)
-
+        
         // If the user is updating a task, remove the old task
         if let oldTaskItem = taskToEdit {
             TodoTaskList.sharedInstance.removeTask(oldTaskItem)
         }
-
+        
         TodoTaskList.sharedInstance.addTask(newTaskItem)
         self.navigationController?.popToRootViewControllerAnimated(true)
     }
@@ -36,12 +36,11 @@ class ToDoTaskEditorViewController: UIViewController {
     // Mark: - Text field keyboard management
     
     func addTabRecognizerToDismissKeyboard() {
-        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
-        tap.cancelsTouchesInView = false
+        let tap = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
         view.addGestureRecognizer(tap)
     }
     
-    func dismissKeyboard(){
-        taskInputField.resignFirstResponder()
+    func dismissKeyboard() {
+        view.endEditing(true)
     }
 }

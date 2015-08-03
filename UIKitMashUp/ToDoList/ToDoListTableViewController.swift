@@ -2,7 +2,7 @@
 import UIKit
 
 class ToDoListTableViewController: UITableViewController {
-
+    
     private var todoTaskItems: [TodoTaskItem] = []
     
     override func viewDidLoad() {
@@ -21,13 +21,13 @@ class ToDoListTableViewController: UITableViewController {
         todoTaskItems = TodoTaskList.sharedInstance.getTaskItemsList()
         tableView.reloadData()
     }
-
+    
     // MARK: - Table view data source
-
+    
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return todoTaskItems.count
     }
-
+    
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! UITableViewCell
         let todoItem = todoTaskItems[indexPath.row] as TodoTaskItem
@@ -63,7 +63,7 @@ class ToDoListTableViewController: UITableViewController {
             TodoTaskList.sharedInstance.removeTask(selectedTask)
         }
     }
-
+    
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         performSegueWithIdentifier("OpenTaskEditor", sender: indexPath)
     }

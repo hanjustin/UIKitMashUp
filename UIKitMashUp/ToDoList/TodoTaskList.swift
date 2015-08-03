@@ -26,24 +26,24 @@ class TodoTaskList {
         struct Singleton {
             static let instance : TodoTaskList = TodoTaskList()
         }
-
+        
         return Singleton.instance
     }
-
+    
     // Retruns list of tasks in chronological order
     func getTaskItemsList() -> [TodoTaskItem] {
         let taskListDictionary = NSUserDefaults.standardUserDefaults().dictionaryForKey(DefaultsKey) ?? [:]
         let taskListArray = Array(taskListDictionary.values)
-
+        
         func createTaskObject(taskData2: AnyObject) -> TodoTaskItem {
             let taskData = taskData2 as! [String:AnyObject]
             let deadline = taskData["deadline"] as! NSDate
             let description = taskData["description"] as! String
             let UUID = taskData["UUID"] as! String
-
+            
             return TodoTaskItem(deadline: deadline, description: description, UUID: UUID)
         }
-
+        
         // Sort the task chronologically
         var todoTaskList = taskListArray.map(createTaskObject).sorted {$0.deadline.compare($1.deadline) == .OrderedAscending}
         return todoTaskList
@@ -61,7 +61,7 @@ class TodoTaskList {
         var taskListDictionary = NSUserDefaults.standardUserDefaults().dictionaryForKey(DefaultsKey) ?? [:]
         taskListDictionary[task.UUID] = ["deadline": task.deadline, "description": task.description, "UUID": task.UUID]
         NSUserDefaults.standardUserDefaults().setObject(taskListDictionary, forKey: DefaultsKey)
-
+        
         // Create notification for the new task
         let notification = UILocalNotification()
         notification.alertBody = "Todo task \"\(task.description)\" is overdue"
@@ -70,7 +70,7 @@ class TodoTaskList {
         notification.soundName = UILocalNotificationDefaultSoundName
         notification.userInfo = ["description": task.description, "UUID": task.UUID] // Unique identifier to the notification for later retrieval
         notification.category = GlobalConstants.ToDoList.NotificationCategory
-
+        
         UIApplication.sharedApplication().scheduleLocalNotification(notification)
         setBadgeNumbers()
     }
@@ -83,13 +83,13 @@ class TodoTaskList {
                 break
             }
         }
-
+        
         // Delete the task from NSUserDefaults
         if var newTodoItems = NSUserDefaults.standardUserDefaults().dictionaryForKey(DefaultsKey) {
             newTodoItems.removeValueForKey(task.UUID)
             NSUserDefaults.standardUserDefaults().setObject(newTodoItems, forKey: DefaultsKey)
         }
-
+        
         setBadgeNumbers()
     }
     
@@ -101,7 +101,7 @@ class TodoTaskList {
         notification.soundName = UILocalNotificationDefaultSoundName
         notification.userInfo = ["description": task.description, "UUID": task.UUID]
         notification.category = GlobalConstants.ToDoList.NotificationCategory
-
+        
         UIApplication.sharedApplication().scheduleLocalNotification(notification)
     }
 }

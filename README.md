@@ -26,6 +26,14 @@ Various apps shown in a tableview. Learning and creating various apps using UIKi
 
 <img src="https://github.com/hanjustin/UIKitMashUp/blob/master/Screenshots/AlbumMain.jpg" width="350">
 
-<b>Photo summary edit alert</b>
+<b>Photo filter search</b>
 
-<img src="https://github.com/hanjustin/UIKitMashUp/blob/master/Screenshots/AlbumPhotoEdit.jpg" width="350">
+<img src="https://github.com/hanjustin/UIKitMashUp/blob/master/Screenshots/AlbumFilterSearch.jpg" width="350">
+
+<b>Adding summary photo when adding it to the album</b>
+
+<img src="https://github.com/hanjustin/UIKitMashUp/blob/master/Screenshots/AlbumPhotoAdd.jpg" width="350">
+
+<b>Photo detail page to edit summary and delete photo</b>
+
+<img src="https://github.com/hanjustin/UIKitMashUp/blob/master/Screenshots/AlbumPhotoDetail.jpg" width="350">
